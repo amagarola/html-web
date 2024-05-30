@@ -17,7 +17,7 @@ Un ArrayList permite almacenar una cantidad variable de elementos y puede crecer
 
 
 ```java
-Copiar código
+
 import java.util.ArrayList;
 
 public class ArrayListExample {
@@ -34,7 +34,7 @@ public class ArrayListExample {
 Un Vector es similar a un ArrayList, pero está sincronizado, lo que lo hace seguro para el acceso concurrente.
 
 ```java
-Copiar código
+
 import java.util.Vector;
 
 public class VectorExample {
@@ -52,7 +52,7 @@ public class VectorExample {
 Puedes almacenar objetos en un Vector de la misma manera que almacenamos tipos primitivos:
 
 ```java
-Copiar código
+
 import java.util.Vector;
 
 class Person {
@@ -82,7 +82,7 @@ public class VectorOfObjects {
 De manera similar a los Vectores, puedes almacenar objetos en un ArrayList:
 
 ```java
-Copiar código
+
 import java.util.ArrayList;
 
 class Animal {
@@ -111,7 +111,7 @@ public class ArrayListOfObjects {
 ### Ficheros de Texto y Objetos
 Leer y Escribir en Ficheros de Texto
 ```java
-Copiar código
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -140,7 +140,7 @@ public class TextFileExample {
 ```
 ### Leer y Escribir Objetos en Ficheros
 ```java
-Copiar código
+
 import java.io.*;
 
 class Person implements Serializable {
@@ -181,7 +181,7 @@ public class ObjectFileExample {
 Permite crear nuevas clases basadas en clases existentes.
 
 ```java
-Copiar código
+
 class Animal {
     void makeSound() {
         System.out.println("Animal sound");
@@ -218,7 +218,7 @@ public class PolymorphismExample {
 Para devolver información en cadenas, puedes usar el método toString().
 
 ```java
-Copiar código
+
 class Car {
     String model;
     
