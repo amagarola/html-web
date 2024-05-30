@@ -11,10 +11,12 @@ Un array es una colección de elementos del mismo tipo, con un tamaño fijo. Se 
 ```java
 int[] numbers = new int[5];
 numbers[0] = 10;
+```
 ArrayList
 Un ArrayList permite almacenar una cantidad variable de elementos y puede crecer dinámicamente.
 
-java
+
+```java
 Copiar código
 import java.util.ArrayList;
 
@@ -27,10 +29,11 @@ public class ArrayListExample {
         System.out.println("ArrayList: " + arrayList);
     }
 }
+```
 ###Vectores
 Un Vector es similar a un ArrayList, pero está sincronizado, lo que lo hace seguro para el acceso concurrente.
 
-java
+```java
 Copiar código
 import java.util.Vector;
 
@@ -44,10 +47,11 @@ public class VectorExample {
         System.out.println("Vector: " + vector);
     }
 }
+```
 ### Vectores de Objetos
 Puedes almacenar objetos en un Vector de la misma manera que almacenamos tipos primitivos:
 
-java
+```java
 Copiar código
 import java.util.Vector;
 
@@ -73,10 +77,11 @@ public class VectorOfObjects {
         System.out.println("Vector of people: " + people);
     }
 }
+```
 Meter Objetos en ArrayList
 De manera similar a los Vectores, puedes almacenar objetos en un ArrayList:
 
-java
+```java
 Copiar código
 import java.util.ArrayList;
 
@@ -102,9 +107,10 @@ public class ArrayListOfObjects {
         System.out.println("ArrayList of animals: " + animals);
     }
 }
+```
 Ficheros de Texto y Objetos
 Leer y Escribir en Ficheros de Texto
-java
+```java
 Copiar código
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -131,8 +137,9 @@ public class TextFileExample {
         }
     }
 }
+```
 Leer y Escribir Objetos en Ficheros
-java
+```java
 Copiar código
 import java.io.*;
 
@@ -168,11 +175,12 @@ public class ObjectFileExample {
         }
     }
 }
+```
 Conceptos de Herencia y Polimorfismo
 Herencia
 Permite crear nuevas clases basadas en clases existentes.
 
-java
+```java
 Copiar código
 class Animal {
     void makeSound() {
@@ -196,7 +204,7 @@ public class InheritanceExample {
 Polimorfismo
 Permite usar una referencia de clase base para referirse a objetos de clase derivada.
 
-java
+```java
 Copiar código
 public class PolymorphismExample {
     public static void main(String[] args) {
@@ -204,10 +212,11 @@ public class PolymorphismExample {
         myDog.makeSound(); // Imprime "Bark"
     }
 }
+```
 Devolver Información en Cadenas
 Para devolver información en cadenas, puedes usar el método toString().
 
-java
+```java
 Copiar código
 class Car {
     String model;
