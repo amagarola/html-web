@@ -206,7 +206,7 @@ public class InheritanceExample {
 Permite usar una referencia de clase base para referirse a objetos de clase derivada.
 
 ```java
-Copiar código
+
 public class PolymorphismExample {
     public static void main(String[] args) {
         Animal myDog = new Dog();
