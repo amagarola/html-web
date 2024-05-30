@@ -1,12 +1,14 @@
-Java Study Guide
+# Java Study Guide
+
 Este repositorio contiene ejemplos y explicaciones sobre varios conceptos de Java que son esenciales para tu examen. Aquí encontrarás información sobre estructuras de datos, vectores, ArrayList, manejo de objetos en colecciones, manejo de ficheros de texto y objetos, conceptos de herencia y polimorfismo, y cómo devolver información en cadenas.
 
-Estructuras de Datos
-Arrays
+## Estructuras de Datos
+
+### Arrays
+
 Un array es una colección de elementos del mismo tipo, con un tamaño fijo. Se inicializa y utiliza de la siguiente manera:
 
-java
-Copiar código
+```java
 int[] numbers = new int[5];
 numbers[0] = 10;
 ArrayList
