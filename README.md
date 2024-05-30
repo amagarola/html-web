@@ -12,7 +12,7 @@ Un array es una colección de elementos del mismo tipo, con un tamaño fijo. Se 
 int[] numbers = new int[5];
 numbers[0] = 10;
 ```
-ArrayList
+### ArrayList
 Un ArrayList permite almacenar una cantidad variable de elementos y puede crecer dinámicamente.
 
 
@@ -30,7 +30,7 @@ public class ArrayListExample {
     }
 }
 ```
-###Vectores
+### Vectores
 Un Vector es similar a un ArrayList, pero está sincronizado, lo que lo hace seguro para el acceso concurrente.
 
 ```java
@@ -78,7 +78,7 @@ public class VectorOfObjects {
     }
 }
 ```
-Meter Objetos en ArrayList
+### Meter Objetos en ArrayList
 De manera similar a los Vectores, puedes almacenar objetos en un ArrayList:
 
 ```java
@@ -108,7 +108,7 @@ public class ArrayListOfObjects {
     }
 }
 ```
-Ficheros de Texto y Objetos
+### Ficheros de Texto y Objetos
 Leer y Escribir en Ficheros de Texto
 ```java
 Copiar código
@@ -138,7 +138,7 @@ public class TextFileExample {
     }
 }
 ```
-Leer y Escribir Objetos en Ficheros
+### Leer y Escribir Objetos en Ficheros
 ```java
 Copiar código
 import java.io.*;
@@ -176,8 +176,8 @@ public class ObjectFileExample {
     }
 }
 ```
-Conceptos de Herencia y Polimorfismo
-Herencia
+### Conceptos de Herencia y Polimorfismo
+## Herencia
 Permite crear nuevas clases basadas en clases existentes.
 
 ```java
@@ -201,7 +201,8 @@ public class InheritanceExample {
         dog.makeSound(); // Imprime "Bark"
     }
 }
-Polimorfismo
+```
+## Polimorfismo
 Permite usar una referencia de clase base para referirse a objetos de clase derivada.
 
 ```java
@@ -213,7 +214,7 @@ public class PolymorphismExample {
     }
 }
 ```
-Devolver Información en Cadenas
+### Devolver Información en Cadenas
 Para devolver información en cadenas, puedes usar el método toString().
 
 ```java
