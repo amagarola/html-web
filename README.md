@@ -27,7 +27,7 @@ public class ArrayListExample {
         System.out.println("ArrayList: " + arrayList);
     }
 }
-Vectores
+###Vectores
 Un Vector es similar a un ArrayList, pero está sincronizado, lo que lo hace seguro para el acceso concurrente.
 
 java
@@ -44,7 +44,7 @@ public class VectorExample {
         System.out.println("Vector: " + vector);
     }
 }
-Vectores de Objetos
+### Vectores de Objetos
 Puedes almacenar objetos en un Vector de la misma manera que almacenamos tipos primitivos:
 
 java
